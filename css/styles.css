@@ -367,7 +367,7 @@ margin-bottom: 200px;
   font-weight: 700
 }
 .frase{
-  font-size: 15px;
+  font-size: 18px;
   line-height: 30px;
   margin-bottom: 200px;
   font-weight: 500;
@@ -379,7 +379,7 @@ margin-bottom: 200px;
   display: none;
   }
   .pGeneral {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 24px;
   }
   .nuestrosInstructoresTitulo {
@@ -390,12 +390,6 @@ margin-bottom: 200px;
   }
   .imagenInstructora{
     width: 300px;
-  }
-  .instructoresContenedorContent__Text{
-    font-size: 10px;
-  }
-  .instructoresContenedorContent__Text2{
-    font-size: 10px;
   }
   .instructoresContenedor{
     display: flex;
@@ -444,7 +438,7 @@ margin-bottom: 200px;
   }
   .bodyIndex{
     background-size: cover;
-    background-image: url(../assets/wallpaper\ celular.jpeg);
+    background-image: url(../assets/manos\ meditacion.jpg);
   }
   .registro {
     font-size: 15px;
@@ -488,6 +482,10 @@ margin-bottom: 200px;
     .tituloUbicacion{
       font-size: 25px;
      }
+     .bodyIndex{
+      background-size: cover;
+      background-image: url(../assets/fondo\ tablet.jpg);
+    }
 }
 .imagenLocation{
   width: 700px;
