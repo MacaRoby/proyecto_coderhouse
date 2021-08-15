@@ -113,7 +113,7 @@
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: stretch;
-  background-image: url(../assets/wallpaperbetter.jpg);
+  background-image: url(../assets/imagenFondo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -436,7 +436,7 @@
   }
   .bodyIndex {
     background-size: cover;
-    background-image: url(../assets/manos\ meditacion.jpg);
+    background-image: url(../assets/fondoCelular.jpg);
   }
   .registro {
     font-size: 15px;
@@ -481,7 +481,7 @@
   }
   .bodyIndex {
     background-size: cover;
-    background-image: url(../assets/fondo\ tablet.jpg);
+    background-image: url(../assets/fondoTablet.jpg);
   }
 }
 .imagenLocation {
