@@ -373,9 +373,6 @@
   .acercaDeNosotrosTitulo {
     font-size: 30px;
   }
-  .imagenAcercaDe {
-    display: none;
-  }
   .pGeneral {
     font-size: 12px;
     line-height: 24px;
@@ -384,10 +381,10 @@
     font-size: 30px;
   }
   .imagenInstructor {
-    width: 300px;
+    width: 250px;
   }
   .imagenInstructora {
-    width: 300px;
+    width: 250px;
   }
   .instructoresContenedor {
     display: flex;
@@ -431,9 +428,6 @@
     width: 250px;
     margin-right: auto;
   }
-  .contenedorFormulario {
-    margin: auto;
-  }
   .bodyIndex {
     background-size: cover;
     background-image: url(../assets/fondoCelular.jpg);
@@ -443,6 +437,29 @@
   }
   .contenedorFormulario {
     margin: auto;
+  }
+  .acercaDeNosotrosContenedor {
+    display: flex;
+    flex-direction: column;
+  }4
+  .item2{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .item1{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+  }
+  .imagenAcercaDe{
+    width: 240px;
+    height: 350px;
+  }
+  .itemContactoTexto{
+    margin-right: 20px;
+  }
+  .carousel{
+    display: none;
   }
 }
 
@@ -482,6 +499,19 @@
   .bodyIndex {
     background-size: cover;
     background-image: url(../assets/fondoTablet.jpg);
+  }
+  .contenedorFormulario {
+    margin-top: 20px;
+  }
+  .imagenAcercaDe{
+    width: 300px;
+    margin-left: 0px;
+  }
+  .imagenInstructor{
+    width: 350px;
+  }
+  .imagenInstructora{
+    width: 350px;
   }
 }
 .imagenLocation {
