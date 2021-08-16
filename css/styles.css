@@ -441,10 +441,11 @@
   .acercaDeNosotrosContenedor {
     display: flex;
     flex-direction: column;
-  }4
+  }
   .item2{
     display: flex;
     justify-content: flex-start;
+    margin-left: 15px;
   }
   .item1{
     display: flex;
@@ -512,6 +513,25 @@
   }
   .imagenInstructora{
     width: 350px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 715px){
+  .imagenYogaKund{
+    display: none;
+  }
+  .imagenYogaViny{
+    display: none;
+  }
+  .imagenMeditacion{
+    display: none;
+  }
+  .carousel{
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 540px){
+  .carousel{
+    display: none;
   }
 }
 .imagenLocation {
